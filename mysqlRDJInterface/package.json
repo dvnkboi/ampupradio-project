@@ -1,0 +1,33 @@
+{
+  "name": "arrest",
+  "version": "1.0.0",
+  "description": "API to help manage and query an RDJ MYSQL database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "service": "node serverService.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rodrigogs/mysql-events": "^0.6.0",
+    "bent": "^7.3.12",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "form-urlencoded": "^4.2.1",
+    "helmet": "^4.2.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "mongodb": "^3.6.2",
+    "mysql": "^2.18.1",
+    "mysql-async-wrapper": "^2.0.1",
+    "node-windows": "^1.0.0-beta.5",
+    "socket.io": "^3.0.4",
+    "sqlstring": "^2.3.2",
+    "ws": "^7.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.0"
+  }
+}
